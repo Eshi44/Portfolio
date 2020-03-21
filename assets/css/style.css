@@ -41,8 +41,9 @@ body {
   }
   
   /* NAV START */
-  #logo {
+  a#logo.navbar-brand {
     font-family: Georgia, Times, "Times New Roman", serif;
+    color:#0f3e2c!important;
   
     /* Typography */
     font-size: 24px;
@@ -91,14 +92,26 @@ body {
   
   /* override bootstrap hover color and border */
   .navbar-default .navbar-nav > li > a:hover {
-    color: #4aaaa5;
+    color: #616161;
   }
   
+.nav-link {
+  color: #0f3e2c;
+}
+
   .navbar {
     background: white;
     border: none;
   }
   
+.block-header {
+  color:#0f3e2c;
+}
+
+  .btn.btn-dark:hover {
+    background-color: #0f3e2c;
+  }
+
   nav.navbar.navbar-expand-lg {
       background-color: rgb(216, 216, 216);
   }
