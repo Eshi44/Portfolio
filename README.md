@@ -19,10 +19,9 @@ This portfolio includes:
 
 ## Portfolio Screenshot
 
-```
+
 ![Porfolio](https://github.com/Eshi44/Portfolio/blob/master/assets/img/Portfolio-Image.PNG)
 
-```
 ## GitHub Repository URL
 
 ```
