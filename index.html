@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Bootstrap Basic Portfolio</title>
+
+  <!-- Boostrap Stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <!-- Our own CSS stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css" media="screen">
+
+  <link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+  crossorigin="anonymous"
+/>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <a class="navbar-brand" href="index.html" id="logo">Emerald Hamel-Iervolino</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#About">About</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+  <!-- End of navbar -->
+
+  <!-- Start of container -->
+  <main class="container">
+    <section class="row">
+      <div class="col-md-10">
+        <article class="block">
+          <h1 class="block-header" id="About"></h1>
+          <hr />
+          <img src="assets/img/Profile-Photo.jpg" alt="Profile picture" id="about-image" />
+          <p> Full-Stack Developer in the Atlanta Area with a B.S. in psychology and an eye for intuitive user experiences, 
+            and a unique perspective on how end-users interact with websites. 
+            Currently enrolled in Georgia Tech’s intensive 12-week 
+            bootcamp, with a focus on JavaScript, and responsive web design. 
+            Also a Certified Scrum Master, and have implemented agile processes in my 
+            personal and professional career. Fluent in English and Japanese and have 
+            strong verbal and written communication skills.
+            My education and work have focused on how to design, build, and evaluate systems 
+            that treat humans as the central component. Also, understanding the technical and 
+            computational requirements of systems in terms of what is needed to deliver creative, 
+            effective results.
+          </p>
+          <br>
+
+        </br>
+            
+  
+          <p>
+           <a href= "https://github.com/Eshi44"><i class="fab fa-github-square fa-3x"></i></a>
+          
+        
+            <a href= "https://www.linkedin.com/in/emerald-hamel-iervolino-a878a5a4/"><i class="fab fa-linkedin fa-3x"></i></a>
+          
+           <a href= "mailto:e.hameliervolino@gmail.com?Subject="><i class="fas fa-envelope fa-3x"></i></a>
+          
+          <a href= "https://github.com/Eshi44/Portfolio/blob/EmDevelop/Emerald%20Hamel-Iervolino%20Resume.pdf"> <i class="fas fa-file fa-3x"></i></a>
+          </p>
+          <p>
+            954-234-0959
+          </p>
+          <a href= "https://www.scrumalliance.org/community/profile/ehamelierv">
+            <img src="assets/img/csm.png" class="img-responsive" data-toggle="tooltip" title data-original-title="Certified ScrumMaster®">
+            </img>
+        </a>
+          
+        </article>
+      </div>
+    </section>
+  </main>
+  <!-- End of container -->
+
+  <main class="container">
+    <section class="row">
+      <div class="col-md-10">
+        <article class="block">
+          <h1 class="block-header" id="Portfolio">Portfolio</h1>
+         
+            <hr />
+            <div class="row">
+              <div class="col-sm-6 col-md-12 col-lg-6">
+                <a href="https://eshi44.github.io/Day-Planner/"><img class="img-fluid port-image" src="assets\img\Work-Day-Scheduler.png" alt="Schedular"></a>
+              </div>
+              <div class="col-sm-6 col-md-12 col-lg-6">
+               <a href="https://eshi44.github.io/Weather-Dashboard/"> <img class="img-fluid port-image" src="assets\img\Weather-Dashboard.png" alt="weather"></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-md-12 col-lg-6">
+                <a href="https://eshi44.github.io/Password-Generator/"><img class="img-fluid port-image" src="assets\img\Password-Generator-Image.png" alt="password"></a>
+              </div>
+              <div class="col-sm-6 col-md-12 col-lg-6">
+               <a href="https://tomaspz.github.io/concerthunt/"><img class="img-fluid port-image" src="assets\img\Concert-Hunt.PNG" alt="concert"></a>
+              </div>
+            </div>
+          
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <main class="container">
+    <section class="row">
+      <div class="col-md-10">
+        <article class="block">
+          <h1 class="block-header" id="Contact"></h1>
+          <form class="block form-horizontal">
+            <h1 class="block-header">Contact</h1>
+            <hr />
+            <div class="form-group">
+              <label for="name" class="col-sm-2 control-label">Name</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="name" placeholder="Name">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email" class="col-sm-2 control-label">Email</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="email" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-2 control-label" for="msg">Message</label>
+              <div class="col-sm-10">
+                <textarea id="msg" class="form-control" rows="3" placeholder="Message"></textarea>
+              </div>
+            </div>
+            <button class="btn btn-dark">Submit</button>
+          </form>
+          
+          
+        </article>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- Start of footer -->
+  <footer class="footer">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+      &copy; Copyright
+    </p>
+  </footer>
+  <!-- End of footer -->
+
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
