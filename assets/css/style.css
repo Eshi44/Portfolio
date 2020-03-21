@@ -22,6 +22,10 @@ body {
     margin: 80px 0;
   }
   
+#portfolio {
+  color:  #0f3e2c;
+}
+
   /* create styles for use for all white main boxes */
   .block {
     background-color: rgb(216, 216, 216);
@@ -52,6 +56,12 @@ body {
   
     /* Visual */
     /* background: #4aaaa5; */
+  }
+
+  .img-fluid.port-image {
+    width: 350px;
+    height: 300px;
+    padding-bottom: 2rem;
   }
 
   .img-responsive:hover {
