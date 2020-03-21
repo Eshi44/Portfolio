@@ -58,6 +58,14 @@ body {
     
   }
 
+  .fas.fa-file.fa-3x {
+    color: black;
+  }
+  .fas.fa-file.fa-3x:hover {
+    color:  #0f3e2c;
+  }
+
+
   .fab.fa-github-square.fa-3x {
     color: black;
     padding-right: 1%;
@@ -75,6 +83,7 @@ body {
   }
   .fas.fa-envelope.fa-3x {
     color: black;
+    padding-right: 1%;
   }
   .fas.fa-envelope.fa-3x:hover {
     color: #0f3e2c;
