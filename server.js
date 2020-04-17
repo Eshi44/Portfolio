@@ -8,7 +8,7 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-
+require("html-routes.js")(app);
 
   app.listen(PORT, function () {
     console.log(`Server listening on: http://localhost:${PORT}`);
