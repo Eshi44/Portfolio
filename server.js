@@ -6,7 +6,7 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.use(express.static(__dirname + '/index.html'));
+app.use(express.static(__dirname + '/routes'));
 
 
 
