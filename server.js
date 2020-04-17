@@ -3,13 +3,16 @@ const PORT = process.env.PORT || 8080;
 const app = express();
 
 
-app.use(express.static("public"));
-
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-require("html-routes.js")(app);
+app.use(express.static(__dirname + '/index.html'));
+
+
+
+require("./routes/html-routes.js")(app);
 
   app.listen(PORT, function () {
     console.log(`Server listening on: http://localhost:${PORT}`);
   });
+ 
